@@ -53,13 +53,13 @@ input[type=text]:hover{
 
 .links{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     flex-direction: row-reverse;
 }
 .links > div {
     margin: 10px;
     padding: 10px;
-    width: 120px;   
+       
 }
 
 .links > div :hover{
@@ -88,37 +88,6 @@ img{
     margin-bottom: 1rem;
   }
 
-  h3 {
-    margin: 30px 0px 10px 47px;
-  }
+  
 
-  .text-input-table {
-    margin: 15px 45px;
-  }
-  .text-input-table tr {
-    font-size: 10pt;
-  }
-  .text-input-table tr td .searchbutton {
-    float: right;
-    background-color: #4D90FE;
-    color: #FFFFFF;
-  }
-
-  .searchbar {
-    border-color: #888888;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 20px;
-    display: block;
-    margin: 10px;
-    padding: 10px;
-    width: 500px;
-  }
-
-  .searchbar-sm {
-    border-radius: 5px;
-    display: block;
-    margin: 7px;
-    padding: 7px;
-    width: 500px;
-  }
+  
