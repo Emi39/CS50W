@@ -73,3 +73,5 @@ def newpage(request):
             "form": NewEntryForm(),
             "existing": False
         })    
+def edit(request):
+    entryPage = util.get
